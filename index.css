@@ -1,0 +1,21 @@
+body {
+  background: black;
+  color: white;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+.fa-star {
+  font-size: 65px;
+}
+
+.con {
+  height: 60px;
+  width: 390px;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0; 
+  top: 0;
+  bottom: 0;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="con">
+    <i class="fa-solid fa-star" id="s1"></i>
+    <i class="fa-solid fa-star" id="s2"></i>
+    <i class="fa-solid fa-star" id="s3"></i>
+    <i class="fa-solid fa-star" id="s4"></i>
+    <i class="fa-solid fa-star" id="s5"></i>
+  </div>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('#s1').click(function(){
+        $('.fa-star').css('color', 'white')
+        $('#s1').css('color', 'yellow')
+      })
+      $('#s2').click(function(){
+        $('.fa-star').css('color', 'white')
+        $('#s1, #s2').css('color', 'yellow')
+      })
+      $('#s3').click(function(){
+        $('.fa-star').css('color', 'white')
+        $('#s1, #s2, #s3').css('color', 'yellow')
+      })
+      $('#s4').click(function(){
+        $('.fa-star').css('color', 'white')
+        $('#s1, #s2, #s3, #s4').css('color', 'yellow')
+      })
+      $('#s5').click(function(){
+        $('.fa-star').css('color', 'white')
+        $('.fa-star').css('color', 'yellow')
+      })
+    })
+  </script>
+</body>
+</html>
